@@ -1,0 +1,11 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: resource-service
+
+security:
+  oauth2:
+    resource:
+      user-info-uri: http://localhost:9999/sso/user
